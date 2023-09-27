@@ -1,0 +1,179 @@
+
+/***************Bushra Css**************************/
+
+
+/*----------------Services Cards Home Page-----------------*/
+.card-service-1
+{
+border: none;
+border-radius: 20px;
+background-color: #fef4f1;
+}
+.card-service-2
+{
+border: none;
+border-radius: 20px;
+background-color: #f6f6ff;
+}
+.card-service-3
+{
+border: none;
+border-radius: 20px;
+background-color: #e8f7fc;
+}
+.card-service-4
+{
+border: none;
+border-radius: 20px;
+background-color:#fefced;
+}
+@media screen and  (max-width: 768px)
+ {
+.card-body
+{
+  margin:10px;
+}  
+}
+/*----------------Home Page:Services Crds Home Page-----------------*/
+
+/*-------------Home Page:Why Support Us Added---------------------------*/
+
+.why-support-1
+{
+  background-color: #fef4f1;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  padding: 24px;
+  margin-top: 23px;
+}
+.why-support-2
+{
+  background-color: #f6f6ff;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  padding: 24px;
+  margin-top: 23px;
+}
+.why-support-3
+{
+  background-color: #fefced;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  padding: 24px;
+  margin-top: 23px;
+}
+.why-support-4
+{
+  background-color: #e8f7fc;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  padding: 24px;
+  margin-top: 23px;
+}
+.why-support-5
+{
+  background-color: #fef1f1;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  padding: 24px;
+  margin-top: 23px;
+}
+/*-------------Home Page: Why Support Us Ended---------------------------*/
+
+/*----------------Home Page : Footer Section Add---------------*/
+
+.footer-widget__title
+{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #1B0644;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24.5px;
+  text-align: left;
+  padding-bottom: 17px;  
+}
+.footer-widget__list
+{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #1B0644;
+}
+/*--------------------Home Page : Footer Section End-------------------*/
+
+
+/*----Home Page : What Our Client Say (Carousel) Section Added---------*/
+
+#customers-testimonials .item {
+  text-align: center;
+  padding: 1px;
+    opacity: .2;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 4px 13px;
+  margin-bottom: 63px;
+}
+@media (max-width: 768px) {
+  #customers-testimonials .item {
+    margin-bottom: 63px;
+    padding-top: 3px;
+    border-radius: 20px;
+    
+  }
+}
+#client-say-1
+{
+  background-color:#fefced ;
+}
+#client-say-2
+{
+  background-color: #f1f5ff;
+}
+#client-say-3
+{
+  background-color: #fef4fc;
+}
+
+#customers-testimonials .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1.0, 1.0, 1);
+  transform: scale3d(1.0, 1.0, 1);
+}
+.owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+  max-width: 90px;
+  margin: 0 auto 17px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span, #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+  
+  transform: translate3d(0px, -50%, 0px) scale(0.6);
+}
+#customers-testimonials.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  outline: none;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+  background: #fff;
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+  border-radius: 100%;
+}
